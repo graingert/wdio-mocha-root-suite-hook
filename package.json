@@ -1,0 +1,18 @@
+{
+  "name": "wdio-mocha-root-suite-hook",
+  "version": "1.0.0",
+  "description": "functional tests that crash",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "mocha specs/",
+    "wdio": "wdio"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "wdio-dot-reporter": "0.0.5",
+    "wdio-mocha-framework": "^0.2.11",
+    "webdriverio": "^4.0.4"
+  }
+}
